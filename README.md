@@ -1,4 +1,4 @@
-# Smartloop NLU Framework
+# Smartloop NLP framework
 Natural language processing framework
 
 # Train a bot
@@ -143,9 +143,9 @@ tensorboard serve --logdir logs/nlp_data/<bot_id>/<model_id>
 
 ## Requirements
 
-* Tensorflow (>=2.9.1)
+* Tensorflow (>=2.12.0)
 
 ## License
 Licensed under the Apache License, Version 2.0. 
 
-Copyright 2021-2022 Smartloop Inc.
+Copyright 2021-2023 Smartloop Inc.
