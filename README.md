@@ -140,6 +140,11 @@ Set `logs:True` in config.yaml to enable debugging using `tensorboard`. Once you
 tensorboard serve --logdir logs/nlp_data/<bot_id>/<model_id>
 ```
 
+## Supported Language
+
+* English (en)
+* Spanish (es)
+* German (de)
 
 ## Requirements
 
