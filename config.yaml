@@ -1,0 +1,22 @@
+# number of epochs
+epochs: 100
+
+# Use tensorboard callback
+logs: True
+
+# classifier parameters
+embedded_intent_classifier:
+    # base neurons to be used by LSTM model
+    neurons: 32
+    # length of input len("hello how are you") = 4
+    input_length: 100
+    # learning rate
+    learning_rate: 1e-2
+    # flatten
+    flatten: False
+    # number of hidden layer
+    hidden_layers: 1
+    # drop rate to avoid overfitting
+    drop_rate: 0.5
+    # early stop training in case of not improving
+    early_stopping: True

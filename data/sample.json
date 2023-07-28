@@ -1,0 +1,704 @@
+{
+    "lang": "en",
+    "examples": {
+        "intents": [
+            {
+                "intent": "about",
+                "text": "about"
+            },
+            {
+                "intent": "about",
+                "text": "company"
+            },
+            {
+                "intent": "about",
+                "text": "what is smartloop"
+            },
+            {
+                "intent": "about",
+                "text": "smartloop"
+            },
+            {
+                "intent": "start",
+                "text": "start"
+            },
+            {
+                "intent": "start",
+                "text": "menu"
+            },
+            {
+                "intent": "start",
+                "text": "hi"
+            },
+
+            {
+                "intent": "start",
+                "text": "hello"
+            },
+            {
+                "intent": "bizbot-cold",
+                "text": "cold"
+            },
+            {
+                "intent": "bizbot-cold",
+                "text": "is it cold"
+            },
+            {
+                "intent": "bizbot-cold",
+                "text": "is it warm"
+            },
+            {
+                "intent": "bizbot-cold",
+                "text": "it is hot"
+            },
+            {
+                "intent": "bizbot-cold",
+                "text": "warm"
+            },
+            {
+                "intent": "bizbot-no-way",
+                "text": "are you dumb"
+            },
+            {
+                "intent": "bizbot-no-way",
+                "text": "you are dumb"
+            },
+            {
+                "intent": "chatter-good-morning",
+                "text": "good morning"
+            },
+            {
+                "intent": "chatter-good-morning",
+                "text": "mornin mister"
+            },
+            {
+                "intent": "chatter-good-morning",
+                "text": "morning"
+            },
+            {
+                "intent": "bizbot",
+                "text": "what are you"
+            },
+            {
+                "intent": "bizbot",
+                "text": "what is your name"
+            },
+            {
+                "intent": "bizbot",
+                "text": "who are you"
+            },
+            {
+                "intent": "bizbot",
+                "text": "your name"
+            },
+            {
+                "intent": "bizbot",
+                "text": "your name please"
+            },
+            {
+                "intent": "bizbot",
+                "text": "what is you"
+            },
+            {
+                "intent": "bizbot",
+                "text": "we need to understand more about you"
+            },
+            {
+                "intent": "bizbot-talk",
+                "text": "you speak"
+            },
+            {
+                "intent": "bizbot-talk",
+                "text": "you talk"
+            },
+            {
+                "intent": "chatter-smart",
+                "text": "are you smart"
+            },
+            {
+                "intent": "chatter-smart",
+                "text": "smartish you are"
+            },
+            {
+                "intent": "chatter-smart",
+                "text": "you are not dumb"
+            },
+            {
+                "intent": "chatter-smart",
+                "text": "you are smart"
+            },
+            {
+                "intent": "chatter-whats-up",
+                "text": "whats up"
+            },
+            {
+                "intent": "chatter-whats-up",
+                "text": "how are you"
+            },
+            {
+                "intent": "chatter-funny",
+                "text": "ha ha you re funny"
+            },
+            {
+                "intent": "chatter-funny",
+                "text": "that s a good one"
+            },
+            {
+                "intent": "chatter-funny",
+                "text": "you are amazing"
+            },
+            {
+                "intent": "chatter-funny",
+                "text": "you are awesome"
+            },
+            {
+                "intent": "chatter-funny",
+                "text": "you are cool"
+            },
+            {
+                "intent": "chatter-funny",
+                "text": "you are funny"
+            },
+            {
+                "intent": "chatter-good-afternoon",
+                "text": "good afternoon"
+            },
+            {
+                "intent": "chatter-good-afternoon",
+                "text": "afternoon"
+            },
+            {
+                "intent": "chatter-good-evening",
+                "text": "good evening"
+            },
+            {
+                "intent": "chatter-good-evening",
+                "text": "evening"
+            },
+            {
+                "intent": "chatter-hello",
+                "text": "bizbot"
+            },
+            {
+                "intent": "chatter-hello",
+                "text": "bonjour"
+            },
+            {
+                "intent": "chatter-hello",
+                "text": "boot up"
+            },
+            {
+                "intent": "chatter-hello",
+                "text": "howdie"
+            },
+            {
+                "intent": "chatter-hello",
+                "text": "howdy"
+            },
+            {
+                "intent": "chatter-hello",
+                "text": "yo"
+            },
+            {
+                "intent": "chatter-jokes",
+                "text": "can you tell a joke"
+            },
+            {
+                "intent": "chatter-jokes",
+                "text": "give me a joke"
+            },
+            {
+                "intent": "chatter-jokes",
+                "text": "joke"
+            },
+            {
+                "intent": "chatter-jokes",
+                "text": "tell me a joke"
+            },
+            {
+                "intent": "chatter-jokes",
+                "text": "tell me joke"
+            },
+            {
+                "intent": "chatter-jokes",
+                "text": "next joke"
+            },
+            {
+                "intent": "chatter-jokes",
+                "text": "one more joke"
+            },
+            {
+                "intent": "contact",
+                "text": "contact"
+            },
+            {
+                "intent": "contact",
+                "text": "what is your email"
+            },
+            {
+                "intent": "contact",
+                "text": "what s your email"
+            },
+            {
+                "intent": "contact",
+                "text": "can i speak to someone"
+            },
+            {
+                "intent": "contact",
+                "text": "do you have support"
+            },
+            {
+                "intent": "contact",
+                "text": "i want technical support"
+            },
+            {
+                "intent": "contact",
+                "text": "i need to talk to support"
+            },
+            {
+                "intent": "contact",
+                "text": "i have a question"
+            },
+            {
+                "intent": "contact",
+                "text": "i am looking for a chat bot for my website"
+            },
+            {
+                "intent": "contact",
+                "text": "i want to build a chatbot"
+            },
+            {
+                "intent": "pricing",
+                "text": "can you check the price of a product"
+            },
+            {
+                "intent": "joseph",
+                "text": "tell me something about joseph"
+            },
+            {
+                "intent": "joseph",
+                "text": "who is joseph"
+            },
+            {
+                "intent": "pricing",
+                "text": "how much cost"
+            },
+            {
+                "intent": "pricing",
+                "text": "license"
+            },
+            {
+                "intent": "pricing",
+                "text": "licensing"
+            },
+            {
+                "intent": "pricing",
+                "text": "prices"
+            },
+            {
+                "intent": "pricing",
+                "text": "what are your prices"
+            },
+            {
+                "intent": "pricing",
+                "text": "what is the price"
+            },
+            {
+                "intent": "pricing",
+                "text": "i need pricing"
+            },
+            {
+                "intent": "pricing",
+                "text": "i want to know about pricing"
+            },
+            {
+                "intent": "pricing",
+                "text": "i need help with pricing"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "adios"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "au revoir"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "awesome see ya"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "best regards"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "best wishes"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "bye"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "bye bye"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "byebye"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "byeeeee"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "catch you later"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "cheers"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "cia"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "ciao"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "ciao"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "cya l8er"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "excellent bye"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "excellent bye bye"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "good night"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "goodbye"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "goodnight then"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "got to go"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "great bye"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "gtg"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "have a good day"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "have a good one"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "have a great one"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "have a great weekend"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "have a nice day"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "i go bye"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "i have to go"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "i ll see you"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "i m outa here"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "later"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "mersi"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "see u"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "see ya"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "see you"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "see you next time"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "see you soon"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "see yu"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "so long"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "talk to you soon"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "thank you"
+            },
+            {
+                "intent": "end-thank-you",
+                "text": "thanks"
+            },
+            {
+                "intent": "about-chatbot",
+                "text": "chatbot"
+            },
+            {
+                "intent": "about-chatbot",
+                "text": "what is a bot"
+            },
+            {
+                "intent": "about-chatbot",
+                "text": "what is a chatbot"
+            },
+            {
+                "intent": "create-account",
+                "text": "create an account"
+            },
+            {
+                "intent": "create-account",
+                "text": "new account"
+            },
+            {
+                "intent": "location",
+                "text": "location"
+            },
+            {
+                "intent": "location",
+                "text": "office"
+            },
+            {
+                "intent": "location",
+                "text": "where are you located"
+            },
+            {
+                "intent": "location",
+                "text": "where is smartloop"
+            },
+            {
+                "intent": "location",
+                "text": "what is your address"
+            },
+            {
+                "intent": "demo",
+                "text": "request a demo"
+            },
+            {
+                "intent": "demo",
+                "text": "i need a demo"
+            },
+            {
+                "intent": "demo",
+                "text": "schedule demo"
+            },
+            {
+                "intent": "demo",
+                "text": "i need demo"
+            },
+            {
+                "intent": "demo",
+                "text": "show platform"
+            },
+            {
+                "intent": "i-need-chatbot",
+                "text": "can i create my own bot"
+            },
+            {
+                "intent": "i-need-chatbot",
+                "text": "create bot"
+            },
+            {
+                "intent": "i-need-chatbot",
+                "text": "create chatbot"
+            },
+            {
+                "intent": "i-need-chatbot",
+                "text": "develop bot"
+            },
+            {
+                "intent": "i-need-chatbot",
+                "text": "develop chatbot"
+            },
+            {
+                "intent": "i-need-chatbot",
+                "text": "i need bot"
+            },
+            {
+                "intent": "i-need-chatbot",
+                "text": "i need chatbot"
+            },
+            {
+                "intent": "i-need-chatbot",
+                "text": "i want bot"
+            },
+            {
+                "intent": "i-need-chatbot",
+                "text": "i want chatbot"
+            },
+            {
+                "intent": "i-need-chatbot",
+                "text": "i want to build a bot"
+            },
+            {
+                "intent": "i-need-chatbot",
+                "text": "i want to create my own bot"
+            },
+            {
+                "intent": "i-need-chatbot",
+                "text": "make bot"
+            },
+            {
+                "intent": "i-need-chatbot",
+                "text": "make chatbot"
+            },
+            {
+                "intent": "689b261e8669401bb78e7c30c9fe4b0e",
+                "text": "i want to test this"
+            },
+            {
+                "intent": "689b261e8669401bb78e7c30c9fe4b0e",
+                "text": "test this"
+            },
+            {
+                "intent": "c39c1e606aee11e9876fa70757d13fea",
+                "text": "agent"
+            },
+            {
+                "intent": "c39c1e606aee11e9876fa70757d13fea",
+                "text": "chat with an agent",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "chat",
+                        "entity": "ordinal"
+                    },
+                    {
+                        "start": 13,
+                        "end": 18,
+                        "value": "agent",
+                        "entity": "91007cc1dba011eaa5d42904a70e0699"
+                    }
+                ]
+            },
+            {
+                "intent": "c39c1e606aee11e9876fa70757d13fea",
+                "text": "i want to chat with an agent",
+                "entities": [
+                    {
+                        "start": 10,
+                        "end": 14,
+                        "value": "chat",
+                        "entity": "ordinal"
+                    },
+                    {
+                        "start": 23,
+                        "end": 28,
+                        "value": "agent",
+                        "entity": "91007cc1dba011eaa5d42904a70e0699"
+                    }
+                ]
+            },
+            {
+                "intent": "c39c1e606aee11e9876fa70757d13fea",
+                "text": "i need help"
+            },
+            {
+                "intent": "c39c1e606aee11e9876fa70757d13fea",
+                "text": "help plz"
+            },
+            {
+                "intent": "c39c1e606aee11e9876fa70757d13fea",
+                "text": "help"
+            },
+            {
+                "intent": "665c66e00b7d11e998bb7389e3b23e82",
+                "text": "integrate email"
+            },
+            {
+                "intent": "665c66e00b7d11e998bb7389e3b23e82",
+                "text": "email integration"
+            },
+            {
+                "intent": "b3f46c41bd3411e9b57df7f4d8b2c858",
+                "text": "i want to get started"
+            },
+            {
+                "intent": "b3f46c41bd3411e9b57df7f4d8b2c858",
+                "text": "sign up"
+            },
+            {
+                "intent": "6c052bf1dba011eaa5d42904a70e0699",
+                "text": "are you human"
+            },
+            {
+                "intent": "6c052bf1dba011eaa5d42904a70e0699",
+                "text": "talk to an agent"
+            },
+            {
+                "intent": "6c052bf1dba011eaa5d42904a70e0699",
+                "text": "connect me to an agent"
+            },
+            {
+                "intent": "057b9be19d5511ebadad2570b8398056",
+                "text": "what do you know about dragons"
+            },
+            {
+                "intent": "057b9be19d5511ebadad2570b8398056",
+                "text": "what are dragons"
+            }
+        ]
+    }
+}
