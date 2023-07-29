@@ -2,9 +2,9 @@ import time
 import json
 import logging
 
-from sl_core import FileConfig
-from sl_core import Project
-from sl_core.text_classifier import TextClassifier
+from smartloop_core import FileConfig
+from smartloop_core import Project
+from smartloop_core.text_classifier import TextClassifier
 
 project_id = 'sample'
 data_dir = '../nlp_data'

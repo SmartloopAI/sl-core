@@ -14,4 +14,4 @@ LANG_MAPS = {
     'de': 'german'
 }
 
-tf.random.set_seed(hash('smartloop'))
+tf.random.set_seed(hash('smartloop_core'))

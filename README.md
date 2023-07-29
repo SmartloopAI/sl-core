@@ -20,7 +20,7 @@ Below is as training JSON sample  containing the pattern and name of the intent 
                 "intent": "about"
             },
             {
-                "text": "what is smartloop",
+                "text": "what is smartloop_core",
                 "intent": "about"
             },
             {

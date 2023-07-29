@@ -3,7 +3,7 @@ from nltk.tokenize import RegexpTokenizer
 
 from nltk import PorterStemmer
 
-from sl_core import LANG_MAPS
+from smartloop_core import LANG_MAPS
 
 
 class Sanitizer:
