@@ -7,4 +7,3 @@ nltk~=3.7
 PyYAML~=6.0
 scikit-learn~=1.2.2
 setuptools~=62.5.0
-`
