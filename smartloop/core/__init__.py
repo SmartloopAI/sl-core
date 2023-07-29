@@ -1,6 +1,4 @@
-import logging
 import tensorflow as tf
-import hashlib
 
 from .config import Config
 from .default_config import DefaultConfig
@@ -14,4 +12,4 @@ LANG_MAPS = {
     'de': 'german'
 }
 
-tf.random.set_seed(hash('smartloop_core'))
+tf.random.set_seed(hash('smartloop'))

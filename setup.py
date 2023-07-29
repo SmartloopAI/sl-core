@@ -15,7 +15,7 @@ install_requires = [
 setup(
     name='smartloop',
     description='Natural language processing framework for text processing',
-    version='1.0.5',
+    version='1.0.6',
     author_email='mehfuz@smartloop.ai',
     author='Smartloop Inc.',
     url='https://github.com/SmartloopAI/sl-core',

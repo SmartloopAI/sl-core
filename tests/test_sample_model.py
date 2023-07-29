@@ -2,9 +2,9 @@ import time
 import json
 import logging
 
-from smartloop_core import FileConfig
-from smartloop_core import Project
-from smartloop_core.text_classifier import TextClassifier
+from smartloop.core import FileConfig
+from smartloop.core import Project
+from smartloop.core.text_classifier import TextClassifier
 
 project_id = 'sample'
 data_dir = '../nlp_data'
@@ -13,6 +13,7 @@ logging.basicConfig()
 logging.root.setLevel(logging.INFO)
 
 logger = logging.getLogger(__name__)
+
 
 def test_sample_model():
     cfg = FileConfig()
@@ -30,4 +31,4 @@ def test_sample_model():
     res = cls.transform(['hi'])
 
     assert res is not None
-    assert res['topIntent']['intent'] == 'start'
+    assert res['topIntent']['name'] == 'start'

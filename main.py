@@ -5,9 +5,9 @@ import time
 import timeit
 import os
 
-from sl_core import FileConfig
-from sl_core import Project
-from sl_core.text_classifier import TextClassifier
+from smartloop.core import FileConfig
+from smartloop.core import Project
+from smartloop.core.text_classifier import TextClassifier
 
 logging.basicConfig()
 logging.root.setLevel(logging.INFO)
@@ -44,7 +44,7 @@ if __name__ == "__main__":
         if args.id is not None:
             proj = Project(data_dir=data_dir, project_id=args.id, model_id=str(int(time.time())))
             cls = TextClassifier(proj=proj, cfg=cfg)
-            with open('data/{}.json'.format(args.id), 'r+') as f:
+            with open('data/%s.json' % args.id, 'r+') as f:
                 data = json.loads(f.read())
             cls.fit(data)
     elif args.command == "parse":
@@ -57,4 +57,4 @@ if __name__ == "__main__":
 
     end_time = timeit.default_timer() - start_time
 
-    logger.info("Completed in {} seconds".format(end_time))
+    logger.info('Completed in %s seconds' % end_time)

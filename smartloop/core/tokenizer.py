@@ -1,6 +1,6 @@
 from keras.preprocessing.text import Tokenizer
 from keras.utils.data_utils import pad_sequences
-from smartloop_core import Config, DefaultConfig
+from smartloop.core import Config, DefaultConfig
 
 
 class SentenceTokenizer:

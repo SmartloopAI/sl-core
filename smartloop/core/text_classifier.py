@@ -3,11 +3,11 @@ import os
 
 import numpy as np
 
-from smartloop_core import Config
-from smartloop_core import Project
+from smartloop.core import Config
+from smartloop.core import Project
 
-from smartloop_core.nlu.classifiers import EmbeddingIntentClassifier
-from smartloop_core.sanitizer import Sanitizer
+from smartloop.core.nlu.classifiers import EmbeddingIntentClassifier
+from smartloop.core.sanitizer import Sanitizer
 
 
 class TextClassifier(object):

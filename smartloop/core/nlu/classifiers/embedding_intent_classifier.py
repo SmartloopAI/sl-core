@@ -12,16 +12,16 @@ from keras.preprocessing.text import tokenizer_from_json
 from keras.callbacks import TensorBoard
 from keras.callbacks import EarlyStopping
 
-from smartloop_core import Config, DefaultConfig
+from smartloop.core import Config, DefaultConfig
 
-from smartloop_core.classifier import Classifier
-from smartloop_core.label_parser import LabelParser
-from smartloop_core.tokenizer import SentenceTokenizer
-from smartloop_core.nlu import OOV_TOKEN
-from smartloop_core.nlu.callbacks import TrainStatusReport
-from smartloop_core.model_loader import ModelLoader
+from smartloop.core.classifier import Classifier
+from smartloop.core.label_parser import LabelParser
+from smartloop.core.tokenizer import SentenceTokenizer
+from smartloop.core.nlu import OOV_TOKEN
+from smartloop.core.nlu.callbacks import TrainStatusReport
+from smartloop.core.model_loader import ModelLoader
 
-from smartloop_core.sanitizer import Sanitizer
+from smartloop.core.sanitizer import Sanitizer
 
 logger = logging.getLogger(__name__)
 

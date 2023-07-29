@@ -1,5 +1,5 @@
 import os
-from smartloop_core.errors import ModelNotFound
+from smartloop.core.errors import ModelNotFound
 
 
 class Project(object):
