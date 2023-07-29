@@ -1,5 +1,5 @@
-import sys
 from setuptools import setup, find_packages
+from smartloop import __version__
 from pathlib import Path
 
 this_directory = Path(__file__).parent
@@ -10,12 +10,13 @@ install_requires = [
     'joblib==1.1.1',
     'PyYAML==6.0',
     'scikit-learn~=1.2.2',
+    'numpy~=1.23.5'
 ]
 
 setup(
     name='smartloop',
     description='Natural language processing framework for text processing',
-    version='1.0.6',
+    version=__version__,
     author_email='mehfuz@smartloop.ai',
     author='Smartloop Inc.',
     url='https://github.com/SmartloopAI/sl-core',

@@ -7,3 +7,6 @@ nltk~=3.7
 PyYAML~=6.0
 scikit-learn~=1.2.2
 setuptools~=62.5.0
+keras~=2.12.0
+numpy~=1.23.5
+h5py==3.9.0
