@@ -19,4 +19,4 @@ embedded_intent_classifier:
     # drop rate to avoid overfitting
     drop_rate: 0.5
     # early stop training in case of not improving
-    early_stopping: True
+    early_stopping: False

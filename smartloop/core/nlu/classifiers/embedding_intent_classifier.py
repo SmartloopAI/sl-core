@@ -107,15 +107,15 @@ class EmbeddingIntentClassifier(Classifier):
         if self.cfg.logs:
             callbacks.append(TensorBoard(log_dir=log_dir))
 
-        early_stopping = self.cfg.embedded_intent_classifier.get('early_stopping', False)
+        early_stopping = self.cfg.embedded_intent_classifier.get('early_stopping')
 
         if early_stopping:
-            callbacks.append(EarlyStopping(monitor='accuracy', mode='max', patience=10))
+            callbacks.append(EarlyStopping(monitor='accuracy', patience=20))
 
         model.fit(
             features,
             intent,
-            validation_split=0.2,
+            validation_split=0.3,
             epochs=self.cfg.epochs,
             callbacks=[
                 callbacks
@@ -204,7 +204,7 @@ class EmbeddingIntentClassifier(Classifier):
             decay_steps=100,
             decay_rate=0.9)
 
-        optimizer = keras.optimizers.Adam(learning_rate=lr_schedule)
+        optimizer = keras.optimizers.RMSprop(learning_rate=lr_schedule)
 
         model.compile(
             loss=keras.losses.SparseCategoricalCrossentropy(),
