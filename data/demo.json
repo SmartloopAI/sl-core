@@ -6,19 +6,19 @@
                 "intent": "about"
             },
             {
-                "text": "I want to learn about the platform",
-                "intent": "about"
-            },
-            {
                 "text": "learn more",
                 "intent": "about"
             },
             {
-                "text": "start",
-                "intent": "start"
+                "text": "tell me more about the platform",
+                "intent": "about"
             },
             {
                 "text": "hello",
+                "intent": "start"
+            },
+            {
+                "text": "hello friend",
                 "intent": "start"
             },
             {

@@ -20,7 +20,7 @@ setup(
     author_email='mehfuz@smartloop.ai',
     author='Smartloop Inc.',
     url='https://github.com/SmartloopAI/sl-core',
-    download_url='https://github.com/SmartloopAI/sl-core/archive/refs/tags/1.0.1.tar.gz',
+    download_url='https://github.com/SmartloopAI/sl-core/archive/refs/tags/1.1.0.tar.gz',
     keywords=['NLP', 'framework', 'tensorflow', 'smartloop'],
     packages=find_packages(exclude=['tests*']),
     license='LICENSE.txt',
