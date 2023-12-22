@@ -14,7 +14,6 @@ logging.root.setLevel(logging.INFO)
 
 logger = logging.getLogger(__name__)
 
-
 if __name__ == "__main__":
     # tensorflow random seed
     # start time
