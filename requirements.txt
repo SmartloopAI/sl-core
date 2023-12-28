@@ -1,12 +1,11 @@
 tensorflow==2.12.0; sys_platform == 'linux'
 tensorflow==2.12.0; sys_platform == 'win32'
 tensorflow-macos==2.12.0; sys_platform == 'darwin'
-tensorflow-metal==0.8.0;sys_platform == 'darwin'
+tensorflow-metal==1.0.0;sys_platform == 'darwin'
 joblib~=1.1.0
 nltk~=3.7
 PyYAML~=6.0
 scikit-learn~=1.2.2
-setuptools~=62.5.0
 keras~=2.12.0
 numpy~=1.23.5
 h5py==3.9.0
